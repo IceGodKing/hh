@@ -88,7 +88,7 @@ export const useSearchStore = create<SearchStore>()(
         },
       })),
       {
-        name: 'ouonnki-tv-search-store', // 持久化存储的键名
+        name: 'fashiang-tv-search-store', // 持久化存储的键名
         partialize: state => ({
           // 只持久化搜索历史，不持久化当前查询和搜索状态
           searchHistory: state.searchHistory,

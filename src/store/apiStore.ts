@@ -121,7 +121,7 @@ export const useApiStore = create<ApiStore>()(
         },
       })),
       {
-        name: 'ouonnki-tv-api-store', // 持久化存储的键名
+        name: 'fashiang-tv-api-store', // 持久化存储的键名
         version: 4, // 更新版本号以触发迁移
         migrate: (persistedState: unknown, version: number) => {
           const state = persistedState as Partial<ApiState>

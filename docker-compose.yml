@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  ouonnkitv:
+  fashiangtv:
     build:
       context: .
       dockerfile: Dockerfile
@@ -20,7 +20,7 @@ services:
       - VITE_PROXY_URL=${VITE_PROXY_URL:-https://api.codetabs.com/v1/proxy?quest=}
       - VITE_INITIAL_VIDEO_SOURCES=${VITE_INITIAL_VIDEO_SOURCES:-}
     restart: unless-stopped
-    container_name: ouonnkitv-dev
+    container_name: fashiangtv-dev
     
     # 健康检查
     healthcheck:

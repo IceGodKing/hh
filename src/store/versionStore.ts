@@ -184,7 +184,7 @@ export const useVersionStore = create<VersionStore>()(
         },
       })),
       {
-        name: 'ouonnki-tv-version-store',
+        name: 'fashiang-tv-version-store',
         version: 1,
         partialize: state => ({
           lastViewedVersion: state.lastViewedVersion,

@@ -75,7 +75,7 @@ export const useViewingHistoryStore = create<ViewingHistoryStore>()(
         },
       })),
       {
-        name: 'ouonnki-tv-viewing-history', // 持久化存储的键名
+        name: 'fashiang-tv-viewing-history', // 持久化存储的键名
         version: 2.1,
         migrate: (persistedState: unknown, version: number) => {
           if (version < 2) {

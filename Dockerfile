@@ -35,8 +35,8 @@ RUN pnpm build
 FROM nginx:alpine AS production
 
 # 添加标签
-LABEL org.opencontainers.image.title="OuonnkiTV"
-LABEL org.opencontainers.image.description="OuonnkiTV Web Application"
+LABEL org.opencontainers.image.title="FASHIANG TV"
+LABEL org.opencontainers.image.description="FASHIANG TV Web Application"
 LABEL org.opencontainers.image.version=${VERSION}
 LABEL org.opencontainers.image.created=${BUILD_DATE}
 LABEL org.opencontainers.image.revision=${VCS_REF}
